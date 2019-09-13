@@ -23,7 +23,8 @@ event = new CustomEvent(typeArg, customEventInit);
 	 window.dispatchEvent(event);
    ``` 
    ``` javascript
-	 You can polyfill the CustomEvent() constructor functionality in Internet Explorer 9 and higher with the following code:
+	 You can polyfill the CustomEvent() constructor functionality in Internet Explorer 9 
+	 and higher with the following code:
 
 (function () {
 
@@ -38,7 +39,8 @@ event = new CustomEvent(typeArg, customEventInit);
 
     window.CustomEvent = CustomEvent;
 	})();
-	Internet Explorer >= 9 adds a CustomEvent object to the window, but with correct implementations, this is a function.
+	Internet Explorer >= 9 adds a CustomEvent object to the window, but with correct 
+	implementations, this is a function.
    ```
 		
 		
